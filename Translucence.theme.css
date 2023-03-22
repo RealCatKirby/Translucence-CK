@@ -13,50 +13,50 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--app-bg: url(https://i.imgur.com/bgmVeyt.jpg);
+	--app-bg: url(https://cdn.discordapp.com/attachments/679710913619689532/1087404133788688384/SPOILER_IMG_20220908_122509.png);
 	--app-blur: 6px;
 	--app-margin: 24px;
 	--app-radius: 8px; /*	-	*/
 	
-	--accent-hue: 156;
-	--accent-saturation: 77.5%;
-	--accent-lightness: 47.1%;
-	--accent-opacity: 1;
-	--accent-text-color: #000; /*	-	*/
+--accent-hue: 25; /* changed to orange hue */
+--accent-saturation: 100%;
+--accent-lightness: 50%;
+--accent-opacity: 1;
+--accent-text-color: #fff; /* changed to white */
 
-	--sidebar-color: rgba(0,0,0,0.4);
-	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
+--sidebar-color: rgba(255,128,0,0.4); /* changed to orange color with opacity */
+--main-content-color: rgba(255,192,203,0.2); /* changed to pink color with opacity */
 
-	--message-color: rgba(0,0,0,0.4);
-	--message-radius: 8px;
-	--message-padding-top: 8px;
-	--message-padding-side: 8px; /*	-	*/
-	
-	--reply-hue: 226;
-	--reply-saturation: 77.4%;
-	--reply-lightness: 61.8%;
-	--reply-opacity: 1; /*	-	*/
+--message-color: rgba(255,128,0,0.4); /* changed to orange color with opacity */
+--message-radius: 8px;
+--message-padding-top: 8px;
+--message-padding-side: 8px;
 
-	--textarea-color: 255,255,255;
-	--textarea-alpha: 0.1;
-	--textarea-alpha-focus: 0.15;
-	--textarea-text-color: #fff;
-	--textarea-radius: 22px;  /*	-	*/
+--reply-hue: 330; /* changed to pink hue */
+--reply-saturation: 100%;
+--reply-lightness: 75%;
+--reply-opacity: 1;
 
-	--card-color: rgba(0,0,0,0.4);
-	--card-color-hover: rgba(0,0,0,0.5);
-	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
-	
-	--button-height: 32px;
-	--button-padding: 0 16px;
-	--button-action-color: #000;
-	--button-radius: 16px; /*	-	*/
+--textarea-color: 255,255,255;
+--textarea-alpha: 0.1;
+--textarea-alpha-focus: 0.15;
+--textarea-text-color: #fff;
+--textarea-radius: 22px;
 
-	--interactive-normal: #aaa;
-	--interactive-hover: #ddd;
-	--interactive-active: #fff;
-	--interactive-muted: #777; /*	-	*/
+--card-color: rgba(255,128,0,0.4); /* changed to orange color with opacity */
+--card-color-hover: rgba(255,128,0,0.5);
+--card-color-select: rgba(255,128,0,0.7);
 
-	--background-modifier-hover: rgba(255,255,255,0.075);
-	--background-modifier-selected: rgba(255,255,255,0.125);
+--button-height: 32px;
+--button-padding: 0 16px;
+--button-action-color: #fff; /* changed to white */
+--button-radius: 16px;
+
+--interactive-normal: #aaa;
+--interactive-hover: #ddd;
+--interactive-active: #fff;
+--interactive-muted: #777;
+
+--background-modifier-hover: rgba(255,255,255,0.075);
+--background-modifier-selected: rgba(255,255,255,0.125);
 }
