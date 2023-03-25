@@ -13,13 +13,13 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--app-bg: url(https://cdn.discordapp.com/attachments/1074392277725741117/1089201533482192926/charlie-puth-2023-usa-tour-dates-tickets.png);
+	--app-bg: url(https://cdn.discordapp.com/attachments/679710913619689532/1088229110620360895/IMG_20220709_134036.png);
 	--app-blur: 6px;
 	--app-margin: 24px;
 	--app-radius: 8px; /*	-	*/
 	
-	--accent-hue: 0; /* gray */
-	--accent-saturation: 0%;
+	--accent-hue: 26; /* orange */
+	--accent-saturation: 100%;
 	--accent-lightness: 50%;
 	--accent-opacity: 1;
 	--accent-text-color: #fff;
@@ -32,9 +32,9 @@
 	--message-padding-top: 8px;
 	--message-padding-side: 8px;
 	
-	--reply-hue: 0; /* black */
-	--reply-saturation: 0%;
-	--reply-lightness: 0%;
+	--reply-hue: 330; /* pink */
+	--reply-saturation: 100%;
+	--reply-lightness: 69%;
 	--reply-opacity: 1;
 	
 	--textarea-color: 255,255,255;
