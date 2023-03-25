@@ -16,11 +16,11 @@
 	--app-bg: url(https://cdn.discordapp.com/attachments/1074392277725741117/1089201533482192926/charlie-puth-2023-usa-tour-dates-tickets.png);
 	--app-blur: 6px;
 	--app-margin: 24px;
-	--app-radius: 8px; /*	-	*/
+	--app-radius: 8px;
 	
-	--accent-hue: 26; /* orange */
-	--accent-saturation: 100%;
-	--accent-lightness: 50%;
+	--accent-hue: 0; /* black */
+	--accent-saturation: 0%;
+	--accent-lightness: 20%;
 	--accent-opacity: 1;
 	--accent-text-color: #fff;
 
@@ -32,9 +32,9 @@
 	--message-padding-top: 8px;
 	--message-padding-side: 8px;
 	
-	--reply-hue: 330; /* pink */
-	--reply-saturation: 100%;
-	--reply-lightness: 69%;
+	--reply-hue: 0; /* black */
+	--reply-saturation: 0%;
+	--reply-lightness: 30%;
 	--reply-opacity: 1;
 	
 	--textarea-color: 255,255,255;
