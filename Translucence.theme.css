@@ -24,7 +24,8 @@
 	--accent-opacity: 1;
 	--accent-text-color: #fff;
 
-	--sidebar-color: rgba(0,0,0,0.4);
+	--sidebar-color: rgba(0,0,0,0.5); /* Make the background half dark */
+
 	--main-content-color: rgba(0,0,0,0.2);
 
 	--message-color: rgba(0,0,0,0.4);
@@ -32,7 +33,7 @@
 	--message-padding-top: 8px;
 	--message-padding-side: 8px;
 
-	--reply-hue: 330; /* Change the reply color to match the accent color */
+	--reply-hue: 26; /* Change the reply hue to orange */
 	--reply-saturation: 100%;
 	--reply-lightness: 69%;
 	--reply-opacity: 1;
