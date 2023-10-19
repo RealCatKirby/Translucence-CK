@@ -24,10 +24,10 @@
 	--accent-opacity: 1;
 	--accent-text-color: #fff;
 
-	--sidebar-color: #000; /* Set sidebar to black */
-	--main-content-color: #000; /* Set main content to black */
+	--sidebar-color: rgba(0,0,0,0.9); /* Darken sidebar */
+	--main-content-color: rgba(0,0,0,0.8); /* Darken main content */
 
-	--message-color: #000; /* Set message background to black */
+	--message-color: rgba(0,0,0,0.9); /* Darken message background */
 	--message-radius: 8px;
 	--message-padding-top: 8px;
 	--message-padding-side: 8px;
@@ -37,15 +37,15 @@
 	--reply-lightness: 50%;
 	--reply-opacity: 1;
 
-	--textarea-color: #000; /* Set the textarea background to black */
+	--textarea-color: 0,0,0; /* Darken the textarea background */
 	--textarea-alpha: 0.9; /* Increase opacity for better visibility */
 	--textarea-alpha-focus: 0.95; /* Increase focus opacity for better visibility */
 	--textarea-text-color: #fff;
 	--textarea-radius: 22px;
 
-	--card-color: #000; /* Set card backgrounds to black */
-	--card-color-hover: #111; /* Darken card hover backgrounds */
-	--card-color-select: #111; /* Darken card select backgrounds */
+	--card-color: rgba(0,0,0,0.9); /* Darken card backgrounds */
+	--card-color-hover: rgba(0,0,0,1); /* Darken card hover backgrounds */
+	--card-color-select: rgba(0,0,0,1); /* Darken card select backgrounds */
 
 	--button-height: 32px;
 	--button-padding: 0 16px;
@@ -59,4 +59,9 @@
 
 	--background-modifier-hover: rgba(255,255,255,0.075); /* Maintain hover background opacity */
 	--background-modifier-selected: rgba(255,255,255,0.125); /* Maintain selected background opacity */
+    
+    /* To improve readability in the message bar, you can adjust the following properties */
+    --message-text-color: #fff; /* Make message text white for better contrast */
+    --message-link-color: #4E8AF1; /* Change link color to a more readable shade */
+    --message-link-hover-color: #2E67E6; /* Adjust link hover color for better visibility */
 }
