@@ -18,35 +18,34 @@
 	--app-margin: 24px;
 	--app-radius: 8px; /* Change this to the default value */
 
-	--accent-hue: 330; /* Change the accent color to pink */
+	--accent-hue: 26; /* Change the accent color to orange */
 	--accent-saturation: 100%;
-	--accent-lightness: 69%;
+	--accent-lightness: 50%;
 	--accent-opacity: 1;
 	--accent-text-color: #fff;
 
-	--sidebar-color: rgba(0,0,0,0.5); /* Make the background half dark */
+	--sidebar-color: rgba(0,0,0,0.9); /* Darken sidebar */
+	--main-content-color: rgba(0,0,0,0.8); /* Darken main content */
 
-	--main-content-color: rgba(0,0,0,0.2);
-
-	--message-color: rgba(0,0,0,0.4);
+	--message-color: rgba(0,0,0,0.9); /* Darken message background */
 	--message-radius: 8px;
 	--message-padding-top: 8px;
 	--message-padding-side: 8px;
 
-	--reply-hue: 26; /* Change the reply hue to orange */
+	--reply-hue: 26; /* Change the reply color back to orange */
 	--reply-saturation: 100%;
-	--reply-lightness: 69%;
+	--reply-lightness: 50%;
 	--reply-opacity: 1;
 
-	--textarea-color: 255,255,255;
-	--textarea-alpha: 0.1;
-	--textarea-alpha-focus: 0.15;
+	--textarea-color: 0,0,0; /* Darken the textarea background */
+	--textarea-alpha: 0.9; /* Increase opacity for better visibility */
+	--textarea-alpha-focus: 0.95; /* Increase focus opacity for better visibility */
 	--textarea-text-color: #fff;
 	--textarea-radius: 22px;
 
-	--card-color: rgba(0,0,0,0.4);
-	--card-color-hover: rgba(0,0,0,0.5);
-	--card-color-select: rgba(0,0,0,0.7);
+	--card-color: rgba(0,0,0,0.9); /* Darken card backgrounds */
+	--card-color-hover: rgba(0,0,0,1); /* Darken card hover backgrounds */
+	--card-color-select: rgba(0,0,0,1); /* Darken card select backgrounds */
 
 	--button-height: 32px;
 	--button-padding: 0 16px;
@@ -58,6 +57,6 @@
 	--interactive-active: #fff;
 	--interactive-muted: #777;
 
-	--background-modifier-hover: rgba(255,255,255,0.075);
-	--background-modifier-selected: rgba(255,255,255,0.125);
+	--background-modifier-hover: rgba(255,255,255,0.075); /* Maintain hover background opacity */
+	--background-modifier-selected: rgba(255,255,255,0.125); /* Maintain selected background opacity */
 }
