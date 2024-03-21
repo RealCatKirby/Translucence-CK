@@ -16,7 +16,7 @@
 	--app-bg: url(https://cdn.discordapp.com/attachments/679710913619689532/1220446258045653042/2023_04_04_0td_Kleki.png?ex=660ef826&is=65fc8326&hm=c80d01f720334d124cec54acd539358f75d15beec2453887e2ae5352635be8e5&);
 	--app-blur: 6px;
 	--app-margin: 24px;
-	--app-radius: 8px; /* Change this to the default value */
+	--app-radius: 8px;
 
 	--accent-hue: 123; /* Change the accent color to green */
 	--accent-saturation: 100%;
@@ -59,9 +59,4 @@
 
 	--background-modifier-hover: rgba(255,255,255,0.075); /* Maintain hover background opacity */
 	--background-modifier-selected: rgba(255,255,255,0.125); /* Maintain selected background opacity */
-    
-    /* To improve readability in the message bar, you can adjust the following properties */
-    --message-text-color: #fff; /* Make message text white for better contrast */
-    --message-link-color: #4E8AF1; /* Change link color to a more readable shade */
-    --message-link-hover-color: #2E67E6; /* Adjust link hover color for better visibility */
 }
