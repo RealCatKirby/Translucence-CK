@@ -10,53 +10,53 @@
  * @invite jzJkA6Z
  */
 
-@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+@import url('https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css');
 
 :root {
-	--app-bg: url(https://cdn.discordapp.com/attachments/679710913619689532/1220446258045653042/2023_04_04_0td_Kleki.png?ex=660ef826&is=65fc8326&hm=c80d01f720334d124cec54acd539358f75d15beec2453887e2ae5352635be8e5&);
-	--app-blur: 6px;
-	--app-margin: 24px;
-	--app-radius: 8px;
+    --app-bg: url('https://cdn.discordapp.com/attachments/679710913619689532/1220446258045653042/2023_04_04_0td_Kleki.png?ex=660ef826&is=65fc8326&hm=c80d01f720334d124cec54acd539358f75d15beec2453887e2ae5352635be8e5&');
+    --app-blur: 6px;
+    --app-margin: 24px;
+    --app-radius: 8px;
 
-	--accent-hue: 123; /* Change the accent color to green */
-	--accent-saturation: 100%;
-	--accent-lightness: 25%; /* Dark green */
-	--accent-opacity: 1;
-	--accent-text-color: #fff;
+    --accent-hue: 123; /* Change the accent color to green */
+    --accent-saturation: 100%;
+    --accent-lightness: 25%; /* Dark green */
+    --accent-opacity: 1;
+    --accent-text-color: #fff;
 
-	--sidebar-color: rgba(0,0,0,0.9); /* Darken sidebar */
-	--main-content-color: rgba(0,0,0,0.8); /* Darken main content */
+    --sidebar-color: rgba(0,0,0,0.9); /* Darken sidebar */
+    --main-content-color: rgba(0,0,0,0.8); /* Darken main content */
 
-	--message-color: rgba(0,0,0,0.9); /* Darken message background */
-	--message-radius: 8px;
-	--message-padding-top: 8px;
-	--message-padding-side: 8px;
+    --message-color: rgba(0,0,0,0.9); /* Darken message background */
+    --message-radius: 8px;
+    --message-padding-top: 8px;
+    --message-padding-side: 8px;
 
-	--reply-hue: 123; /* Change the reply color back to green */
-	--reply-saturation: 100%;
-	--reply-lightness: 25%; /* Dark green */
-	--reply-opacity: 1;
+    --reply-hue: 123; /* Change the reply color back to green */
+    --reply-saturation: 100%;
+    --reply-lightness: 25%; /* Dark green */
+    --reply-opacity: 1;
 
-	--textarea-color: 0,0,0; /* Darken the textarea background */
-	--textarea-alpha: 0.9; /* Increase opacity for better visibility */
-	--textarea-alpha-focus: 0.95; /* Increase focus opacity for better visibility */
-	--textarea-text-color: #fff;
-	--textarea-radius: 22px;
+    --textarea-color: 0,0,0; /* Darken the textarea background */
+    --textarea-alpha: 0.9; /* Increase opacity for better visibility */
+    --textarea-alpha-focus: 0.95; /* Increase focus opacity for better visibility */
+    --textarea-text-color: #fff;
+    --textarea-radius: 22px;
 
-	--card-color: rgba(0,0,0,0.9); /* Darken card backgrounds */
-	--card-color-hover: rgba(0,0,0,1); /* Darken card hover backgrounds */
-	--card-color-select: rgba(0,0,0,1); /* Darken card select backgrounds */
+    --card-color: rgba(0,0,0,0.9); /* Darken card backgrounds */
+    --card-color-hover: rgba(0,0,0,1); /* Darken card hover backgrounds */
+    --card-color-select: rgba(0,0,0,1); /* Darken card select backgrounds */
 
-	--button-height: 32px;
-	--button-padding: 0 16px;
-	--button-action-color: #fff;
-	--button-radius: 16px;
+    --button-height: 32px;
+    --button-padding: 0 16px;
+    --button-action-color: #fff;
+    --button-radius: 16px;
 
-	--interactive-normal: #aaa;
-	--interactive-hover: #ddd;
-	--interactive-active: #fff;
-	--interactive-muted: #777;
+    --interactive-normal: #aaa;
+    --interactive-hover: #ddd;
+    --interactive-active: #fff;
+    --interactive-muted: #777;
 
-	--background-modifier-hover: rgba(255,255,255,0.075); /* Maintain hover background opacity */
-	--background-modifier-selected: rgba(255,255,255,0.125); /* Maintain selected background opacity */
+    --background-modifier-hover: rgba(255,255,255,0.075); /* Maintain hover background opacity */
+    --background-modifier-selected: rgba(255,255,255,0.125); /* Maintain selected background opacity */
 }
