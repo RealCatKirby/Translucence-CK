@@ -13,50 +13,66 @@
 @import url('https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css');
 
 :root {
+    /* Background and Translucence */
     --app-bg: url('https://cdn.discordapp.com/attachments/679710913619689532/1220446258045653042/2023_04_04_0td_Kleki.png?ex=660ef826&is=65fc8326&hm=c80d01f720334d124cec54acd539358f75d15beec2453887e2ae5352635be8e5&');
-    --app-blur: 6px;
+    --app-blur: 6px;  /* Frosted glass effect */
     --app-margin: 24px;
     --app-radius: 8px;
 
-    --accent-hue: 123; /* Change the accent color to green */
+    /* Green Accent */
+    --accent-hue: 123; /* Green */
     --accent-saturation: 100%;
-    --accent-lightness: 25%; /* Dark green */
+    --accent-lightness: 25%; /* Dark Green */
     --accent-opacity: 1;
     --accent-text-color: #fff;
 
-    --sidebar-color: rgba(0,0,0,0.9); /* Darken sidebar */
-    --main-content-color: rgba(0,0,0,0.8); /* Darken main content */
-
-    --message-color: rgba(0,0,0,0.9); /* Darken message background */
+    /* Sidebar, Content and Message Background */
+    --sidebar-color: rgba(0, 0, 0, 0.9); /* Darken sidebar */
+    --main-content-color: rgba(0, 0, 0, 0.8); /* Darken main content */
+    --message-color: rgba(0, 0, 0, 0.9); /* Darken message background */
     --message-radius: 8px;
     --message-padding-top: 8px;
     --message-padding-side: 8px;
 
-    --reply-hue: 123; /* Change the reply color back to green */
+    /* Reply and Interaction Color */
+    --reply-hue: 123; /* Green accent for replies */
     --reply-saturation: 100%;
     --reply-lightness: 25%; /* Dark green */
     --reply-opacity: 1;
 
-    --textarea-color: 0,0,0; /* Darken the textarea background */
+    /* Textarea Background and Border */
+    --textarea-color: rgba(0, 0, 0, 0.8); /* Darken the textarea background */
     --textarea-alpha: 0.9; /* Increase opacity for better visibility */
     --textarea-alpha-focus: 0.95; /* Increase focus opacity for better visibility */
     --textarea-text-color: #fff;
     --textarea-radius: 22px;
 
-    --card-color: rgba(0,0,0,0.9); /* Darken card backgrounds */
-    --card-color-hover: rgba(0,0,0,1); /* Darken card hover backgrounds */
-    --card-color-select: rgba(0,0,0,1); /* Darken card select backgrounds */
+    /* Card Backgrounds */
+    --card-color: rgba(0, 0, 0, 0.9); /* Darken card backgrounds */
+    --card-color-hover: rgba(0, 0, 0, 1); /* Darken card hover backgrounds */
+    --card-color-select: rgba(0, 0, 0, 1); /* Darken card select backgrounds */
 
+    /* Button Styles */
     --button-height: 32px;
     --button-padding: 0 16px;
-    --button-action-color: #fff;
+    --button-action-color: #fff; /* Button text color */
     --button-radius: 16px;
 
+    /* Interactive Elements */
     --interactive-normal: #aaa;
     --interactive-hover: #ddd;
     --interactive-active: #fff;
     --interactive-muted: #777;
 
-    --background-modifier-hover: rgba(255,255,255,0.075); /* Maintain hover background opacity */
-    --background-modifier-selected: rgba(255,255,255,0.125); /* Maintain selected background opacity */
+    /* Background Modifier for Hover and Select States */
+    --background-modifier-hover: rgba(255, 255, 255, 0.075); /* Hover background opacity */
+    --background-modifier-selected: rgba(255, 255, 255, 0.125); /* Selected background opacity */
 }
+
+/* Optional: Example of a few adjustments that may need custom CSS in your theme */
+.theme-dark, .theme-dark .content-3u1Onk, .theme-dark .sidebar-2K6kXr {
+    background-color: var(--app-bg);
+    filter: blur(var(--app-blur));
+}
+
+/* Additional styles for buttons, cards, etc., can be added here if needed */
